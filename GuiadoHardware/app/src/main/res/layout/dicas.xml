@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#212121">
+    <ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        tools:context=".Dicas">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="20sp"
+                android:fontFamily="sans-serif-medium"
+                android:text="Dicas"
+                android:textColor="#EDE7F6"
+                android:textSize="30sp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="2sp"
+                android:textStyle="bold"
+                android:fontFamily="sans-serif-medium"
+                android:text="Memória RAM:"
+                android:textColor="#EDE7F6"
+                android:textSize="20sp"
+                android:gravity="center_horizontal"/>
+
+            <TextView
+                android:layout_marginTop="20sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-medium"
+                android:text="Prefira sempre os padrões mais comuns.
+Evite o uso de tecnologias difíceis de serem encontradas, porque, o tipo mais comum são as memórias DDR3, ainda sendo possível encontrar memórias DDR2. "
+                android:textColor="#EDE7F6"
+                android:layout_margin="10sp"
+                android:textSize="17sp"
+                android:layout_gravity="fill_horizontal"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="2sp"
+                android:textStyle="bold"
+                android:fontFamily="sans-serif-medium"
+                android:text="Disco Rígido (Memória Secundária):"
+                android:textColor="#EDE7F6"
+                android:textSize="20sp"
+                android:gravity="center_horizontal"/>
+
+            <TextView
+                android:layout_marginTop="20sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="2sp"
+                android:fontFamily="sans-serif-medium"
+                android:text="Na escolha de um HD, deve-se considerar não só a capacidade, mas também a velocidade de rotação dos discos, que é medida em RPM (rotações por minuto): prefira unidades com pelo menos 7.200 RPM (bastante comuns no mercado)."
+                android:textColor="#EDE7F6"
+                android:textSize="17sp"
+                android:layout_margin="10sp"
+                android:layout_gravity="fill_horizontal"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="2sp"
+                android:textStyle="bold"
+                android:fontFamily="sans-serif-medium"
+                android:text="Fonte de Alimentação:"
+                android:textColor="#EDE7F6"
+                android:textSize="20sp"
+                android:gravity="center_horizontal"/>
+
+
+            <TextView
+                android:layout_marginTop="20sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="2sp"
+                android:fontFamily="sans-serif-medium"
+                android:text="A fonte de alimentação é outro item de bastante importância: é ela que distribui energia para todos os componentes da máquina. Alguns consomem menos eletricidade, como a memória RAM, mas outras são mais exigentes neste aspecto, como as placas de vídeo. Por isso, procure por fontes de qualidade reconhecida e certifique-se de que o modelo que te interessa é capaz de alimentar devidamente o seu computador."
+                android:textColor="#EDE7F6"
+                android:textSize="17sp"
+                android:layout_margin="10sp"
+                android:layout_gravity="fill_horizontal"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="2sp"
+                android:textStyle="bold"
+                android:fontFamily="sans-serif-medium"
+                android:text="Monitores de vídeo:"
+                android:textColor="#EDE7F6"
+                android:textSize="20sp"
+                android:gravity="center_horizontal"/>
+            <TextView
+                android:layout_marginTop="20sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="2sp"
+                android:fontFamily="sans-serif-medium"
+                android:text="Hoje, a tecnologia LCD (Liquid Crystal Display) e semelhantes são praticamente unanimidade, afinal, monitores do tipo são mais leves, ocupam menos espaço físico e oferecem, em boa parte dos casos, excelente qualidade de imagem.
+Como a tecnologia LCD é bastante popular, seus preços também costumam ser vantajosos."
+                android:textColor="#EDE7F6"
+                android:textSize="17sp"
+                android:layout_margin="10sp"
+                android:layout_gravity="fill_horizontal"/>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Página Principal"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="8sp"
+                android:onClick="Menu"
+                />
+        </LinearLayout>
+
+    </ScrollView>
+</RelativeLayout>

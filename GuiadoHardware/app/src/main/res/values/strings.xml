@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Guia do Hardware</string>
+    <string name="hello">
+    <![CDATA[
+                    <html>
+                     <head></head>
+                     <body style="text-align:justify;color:gray;background-color:black;">
+                      Lorem ipsum dolor sit amet, consectetur
+                      adipiscving elit. Nunc pellentesque, urna
+                      nec hendrerit pellentesque, risus massa
+                     </body>
+                    </html>
+                    ]]> /</string>
+</resources>

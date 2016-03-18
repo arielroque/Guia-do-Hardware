@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#212121"
+    android:orientation="vertical">
+    <ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        tools:context=".Memoria">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="20sp"
+                android:fontFamily="sans-serif-medium"
+                android:text="Memória "
+                android:textColor="#EDE7F6"
+                android:textSize="30sp" />
+            <TextView
+                android:id="@+id/tela"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="2sp"
+                android:textStyle="bold"
+                android:fontFamily="sans-serif-medium"
+                android:text="A memória do computador pode ser dividida em duas categorias:"
+                android:textColor="#EDE7F6"
+                android:textSize="17sp"
+                android:gravity="center_horizontal"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="2sp"
+                android:textStyle="bold"
+                android:fontFamily="sans-serif-medium"
+                android:text="Memória Primária:"
+                android:textColor="#EDE7F6"
+                android:textSize="20sp"
+                android:layout_marginTop="20sp"
+                android:gravity="center_horizontal"/>
+
+            <TextView
+                android:layout_marginTop="20sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="2sp"
+                android:fontFamily="sans-serif-medium"
+                android:text="É um tipo de memória essencial para o computador, sendo usada para guardar dados e instruções de um programa. Tem como características fundamentais, a volatilidade, ou seja, o seu conteúdo é perdido quando o computador é desligado; o acesso aleatório aos dados e o suporte à leitura e gravação de dados. "
+                android:textColor="#EDE7F6"
+                android:layout_margin="12sp"
+                android:textSize="17sp"
+                android:layout_gravity="fill_horizontal"/>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:layout_marginTop="-45sp"
+                android:layout_marginLeft="20sp"
+                android:layout_marginRight="20sp"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/ram"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="2sp"
+                android:textStyle="bold"
+                android:fontFamily="sans-serif-medium"
+                android:text="Memória Secundária(Disco Rígido):"
+                android:textColor="#EDE7F6"
+                android:textSize="20sp"
+                android:gravity="center_horizontal"/>
+            <TextView
+                android:layout_marginTop="20sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="2sp"
+                android:text="É um tipo de memória  não volátil, tem maior capacidade de armazenamento e é mais barata. Estas memórias podem ser removíveis ou não. Neste contexto,removíveis significa que ela pode ser retirada do computador e transportada facilmente para outro. O winchester ou disco rígido, por exemplo, não é removível. Já os demais podem ser chamados de removíveis. Estes são os tipos de memória secundária disponíveis hoje:
+
+Fitas Magnéticas (streamer e dat)
+Discos rígidos e flexíveis
+Cd-rom (compact disk read only memory) e Cd-worm (write once read many)
+Zip disks, etc."
+                android:textColor="#EDE7F6"
+                android:textSize="17sp"
+                android:layout_margin="10sp"
+                android:layout_gravity="fill_horizontal"/>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:layout_marginTop="30sp"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/hd" />
+
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Página Principal"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="8sp"
+                android:onClick="Menu"
+                />
+        </LinearLayout>
+
+    </ScrollView>
+</RelativeLayout>

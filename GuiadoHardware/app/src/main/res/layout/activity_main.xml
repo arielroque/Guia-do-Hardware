@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.ariel.guiadohardware.MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/fundo"
+        android:scaleType="centerCrop"/>
+    <TextView
+        android:id="@+id/placa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="55dp"
+        android:layout_marginTop="30dp"
+        android:clickable="true"
+        android:drawableTop="@drawable/placa"
+        android:onClick="ClickPla"
+        android:text="Placa Mãe"
+        android:textSize="20sp"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        />
+    <TextView
+        android:id="@+id/memoria"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="220dp"
+        android:layout_marginTop="30dp"
+        android:clickable="true"
+        android:drawableTop="@drawable/memoria"
+        android:onClick="ClickMemo"
+        android:text="Memória "
+        android:textSize="20sp"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/processador"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="48dp"
+        android:layout_marginTop="140dp"
+        android:clickable="true"
+        android:drawableTop="@drawable/processador"
+        android:onClick="ClickProce"
+        android:text=" Processador"
+        android:textSize="20sp"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/periferico"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="218dp"
+        android:layout_marginTop="140dp"
+        android:clickable="true"
+        android:drawableTop="@drawable/perifericos"
+        android:onClick="ClickPeri"
+        android:text="Periféricos"
+        android:textSize="20sp"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/dica"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="165sp"
+        android:layout_marginTop="250sp"
+        android:clickable="true"
+        android:drawableTop="@drawable/dica"
+        android:onClick="ClickDica"
+        android:text="Dicas"
+        android:textSize="20sp"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Curtiu? Avalie:"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginTop="350sp"
+        android:layout_marginLeft="10sp"
+        android:textColor="#FFFFFF"/>
+
+    <RatingBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ratingBar"
+        android:onClick="Ratting"
+        android:numStars="5"
+        android:clickable="true"
+        android:background="#828178"
+        android:backgroundTint="#d1cbcb"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="70sp"/>
+    <TextView
+        android:id="@+id/txtRatingValor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="20sp"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="350sp"
+        android:layout_marginLeft="200sp"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+
+
+</RelativeLayout>

@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#212121"
+    android:orientation="vertical">
+    <ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        tools:context=".Dicas">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="20sp"
+                android:fontFamily="sans-serif-medium"
+                android:text="Periféricos"
+                android:textColor="#EDE7F6"
+                android:textSize="30sp" />
+            <TextView
+                android:id="@+id/msn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/foto"
+                android:padding="2sp"
+                android:fontFamily="sans-serif-medium"
+                android:text="São placas ou aparelhos que recebem ou enviam informações para o computador.  Na informática, o termo periférico aplica-se a qualquer equipamento ou acessório que seja ligado à CPU (unidade central de processamento), ou, num sentido mais amplo, ao computador"
+                android:textColor="#EDE7F6"
+                android:layout_margin="10sp"
+                android:textSize="17sp" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:layout_marginTop="-240sp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginLeft="20sp"
+                android:layout_marginRight="20sp"
+                android:src="@drawable/perifericos1" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="2sp"
+                android:textStyle="bold"
+                android:fontFamily="sans-serif-medium"
+                android:text="Exemplos de Periféricos:"
+                android:textColor="#EDE7F6"
+                android:layout_marginTop="-200sp"
+                android:textSize="20sp"
+                android:gravity="center_horizontal"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="2sp"
+                android:fontFamily="sans-serif-medium"
+                android:text="Entrada:"
+                android:textColor="#EDE7F6"
+                android:textSize="16sp"
+                android:gravity="center_horizontal"
+                android:layout_marginTop="30sp"/>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:layout_marginTop="-140sp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginRight="20sp"
+                android:layout_marginLeft="20sp"
+                android:src="@drawable/tecladoemou" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="2sp"
+                android:fontFamily="sans-serif-medium"
+                android:text="Saída:"
+                android:textColor="#EDE7F6"
+                android:layout_marginTop="-100sp"
+                android:textSize="16sp"
+                android:gravity="center_horizontal"/>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:layout_marginTop="50sp"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/caixa" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="2sp"
+                android:fontFamily="sans-serif-medium"
+                android:text="Entrada/Saída:"
+                android:textColor="#EDE7F6"
+                android:layout_marginTop="80sp"
+                android:textSize="16sp"
+                android:gravity="center_horizontal" />
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:layout_marginTop="50sp"
+                android:layout_marginRight="30sp"
+                android:layout_marginLeft="30sp"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/pendrive2" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="2sp"
+                android:fontFamily="sans-serif-medium"
+                android:text="Armazenamento:"
+                android:textColor="#EDE7F6"
+                android:textSize="16sp"
+                android:layout_marginTop="80sp"
+                android:gravity="center_horizontal"/>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:layout_marginTop="50sp"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/hd" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Página Principal"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10sp"
+                android:onClick="Menu"
+                />
+        </LinearLayout>
+
+    </ScrollView>
+</RelativeLayout>
